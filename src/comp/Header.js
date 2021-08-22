@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import logo from '../images/logo.png'
+import logo from '../images/logo2.png'
 
 const Header = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
