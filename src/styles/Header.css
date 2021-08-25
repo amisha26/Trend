@@ -89,7 +89,7 @@ li:hover::before{
   font-size: 2.5rem;
   font-weight: 400;
   text-transform: uppercase;
-  background: -webkit-linear-gradient(rgb(104, 93, 93), rgb(11, 78, 67));
+  background: -webkit-linear-gradient(rgb(104, 93, 93), rgb(104, 211, 193));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -194,7 +194,7 @@ li:hover::before{
   .mobile-menu-link {
     /**************** change the color of slide menu ****************/
     background-color: #284243;
-    height: 20rem;
+    height: 23rem;
     display: grid;
     grid-column: 2/5;
     align-items: center;
