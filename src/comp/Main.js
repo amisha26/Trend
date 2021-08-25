@@ -1,9 +1,10 @@
 import React from "react";
 import img1 from "../images/main.svg";
+import load from "../images/loader.gif";
 
 const Main = () => {
   return (
-    <>
+    <div>
       <div className="container">
         <div className="row">
           <div className="col-2">
@@ -12,8 +13,7 @@ const Main = () => {
             </h1>
             <p>Get what is best for you.</p>
             <a href="" className="btn">
-              {" "}
-              Explore Now &#8594;
+              Explore Now
             </a>
           </div>
           <div className="col-2">
@@ -21,8 +21,7 @@ const Main = () => {
           </div>
         </div>
       </div>
-      
-    </>
+    </div>
   );
 };
 
