@@ -12,7 +12,9 @@ const Header = () => {
         {/* 1st logo part */}
         <div className="logo">
           <h2>
-            <img src={logo} alt="no" style={{ height: "5rem" }} />
+            <Link to="/">
+              <img src={logo} alt="no" style={{ height: "5rem" }} />
+            </Link>
           </h2>
         </div>
 
