@@ -1,1 +1,1 @@
-# Currenty in development mode
+# Currently in development mode
