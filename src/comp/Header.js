@@ -25,10 +25,22 @@ const Header = () => {
           }
         >
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Services</li>
-            <li>Contact</li>
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+
+            <Link>
+              <li>Product</li>
+            </Link>
+
+            <Link>
+              <li>Offer</li>
+            </Link>
+
+            <Link>
+              <li>Contact</li>
+            </Link>
+
             <Link to="/login">
               <li>Login/Signup</li>
             </Link>
@@ -45,12 +57,6 @@ const Header = () => {
           </div>
         </div>
       </nav>
-
-      {/* hero section */}
-      {/* <section className="hero-section">
-<p>Welcome to </p>
-<h1>Thapa Technical</h1>
-</section> */}
     </div>
   );
 };
