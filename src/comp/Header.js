@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "../styles/Header.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import logo from "../images/logo2.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
@@ -26,7 +27,9 @@ const Header = () => {
             <li>About</li>
             <li>Services</li>
             <li>Contact</li>
-            <li>Login/Signup</li>
+            <Link to="/login">
+              <li>Login/Signup</li>
+            </Link>
           </ul>
         </div>
 
